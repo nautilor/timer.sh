@@ -2,7 +2,7 @@
 
 function refresh() {
     # move cursor to 0,0
-    printf '\e[H'
+    printf '\e[H0,1'
     # clear the screen
     printf '\e[2J'
     # set max scroll to 7 lines
